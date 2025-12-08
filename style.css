@@ -54,12 +54,11 @@
                 opacity: 1;
             }
         }
-        header * {
-    background: transparent !important; /* Ensure children don't overwrite */
-}
+        
         header {
             background: transparent;
             color:white;
+            backdrop-filter: none;
             position: fixed;
             width: 100%;
             top: 0;
@@ -68,6 +67,7 @@
         }
 
         nav {
+            background: transparent;
             display: flex;
             justify-content: space-between;
             align-items: center;
