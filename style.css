@@ -54,9 +54,9 @@
                 opacity: 1;
             }
         }
-        .bg-transparent {
-    background: transparent !important;}
-
+        header * {
+    background: transparent !important; /* Ensure children don't overwrite */
+}
         header {
             background: transparent;
             color:white;
