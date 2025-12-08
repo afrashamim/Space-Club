@@ -54,6 +54,8 @@
                 opacity: 1;
             }
         }
+        .bg-transparent {
+    background: transparent !important;}
 
         header {
             background: transparent;
